@@ -1,0 +1,132 @@
+/*
+    For Modals Element Only
+*/
+
+/* Modal */
+.modal-dialog-content {
+    min-height:80vh;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.modal-content-boxx {
+    margin:1.25rem;
+    width:100%;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    border-radius: 20px;
+    z-index: 9999 !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    position: relative;display: flex;
+    flex-direction: column;
+    pointer-events: auto;
+    background-clip: padding-box;
+    outline: 0;
+
+
+}
+.modal-header-new {
+    background-color: #dfaa38;
+    padding:0.875rem 1.25rem;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.modal-header-new span {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.modal-header-new i {
+    color: #fff;
+    font-size:0.875rem;
+    cursor:pointer;
+}
+.modal-content-new {
+    padding:1.625rem 1.25rem;
+}
+.modal-close-i {
+    cursor:pointer;
+    transition: all 0.5s;
+}
+.modal-close-i:hover {
+    opacity: 0.7;
+}
+
+.modal--language-options
+{
+    padding: 0.5rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    transition: all 0.5s;
+}
+.modal--language-options span {
+    color: #a5a5a5;
+    font-size: 0.813rem;
+    font-weight: normal;
+}
+.modal--language-options i {
+    color: #a5a5a5;
+    font-size:1rem;
+}
+
+.modal--language-options:hover
+{
+    padding: 0.5rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+.modal--language-options:hover span {
+    color: #dfaa38;
+    font-size: 0.813rem;
+    font-weight: normal;
+}
+.modal--language-options:hover i {
+    color: #dfaa38;
+    font-size:1rem;
+}
+
+.modal--language-options.bolded
+{
+    padding: 0.5rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+.modal--language-options.bolded span {
+    color: #9c602b;
+    font-size: 0.813rem;
+    font-weight: bold;
+}
+.modal--language-options.bolded i {
+    color: #9c602b;
+    font-size:1rem;
+}
+
+.modal-success .modal-subject {
+    color: #9c602b;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.modal-success .modal-desc {
+    color: #8e8e93;
+    font-size: 0.875rem;
+    font-weight: normal;
+}
+
+.modal-fail .modal-subject {
+    color: #9c602b;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.modal-fail .modal-desc {
+    color: #8e8e93;
+    font-size: 0.875rem;
+    font-weight: normal;
+}
+
+
+@media only screen and (max-width: 767px)
+{
+    
+}

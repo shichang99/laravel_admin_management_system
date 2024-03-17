@@ -1,0 +1,183 @@
+.calender-boxx
+{
+    background: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    padding: 1rem 1.25rem;
+    margin-top: 0.5rem;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.calender-boxx .calender-headerr
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.calender-boxx .calender-headerr .calender-left
+{
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+}
+.left-date
+{
+    width: 30%;
+    text-align: left;
+    text-decoration: underline;
+    font-size: 0.875rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: #1e1d1d;
+}
+.left-date:hover
+{
+    opacity: 0.5;
+}
+.right-date
+{
+    width: 30%;
+    text-align: right;
+    text-decoration: underline;
+    font-size: 0.875rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: #1e1d1d;
+}
+.right-date:hover
+{
+    opacity: 0.5;
+}
+.calender-boxx .calender-headerr .calender-right
+{
+    width: 50%;
+    text-align: right;
+    text-transform: uppercase;
+    color: #b13cff92;
+    font-size: 1.125rem;
+    font-weight: 700;
+    
+}
+.calender-boxx .calender-headerr .calender-right .curmonth
+{
+
+}
+.calender-boxx .calender-headerr .calender-right .curyear
+{
+    background: #b13cff92;
+    color: #fff;
+    padding: 0.1rem 0.5rem;
+    border-radius: 5px;
+    margin-left: 0.25rem;
+}
+.calender-weeks
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    margin-bottom: 0.5rem;
+}
+.calender-weeks div {
+    text-align: center;
+    color: #00000070;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+.calender-dates
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+}
+.calender-dates .days_each
+{
+    text-align: center;
+    cursor: pointer;
+    color: #000000a3;
+    font-size: 0.85rem;
+    padding: 0.2rem;
+}
+.calender-dates .days_each.bolded {
+    font-weight: bold;
+    background: #b13cff;
+    color: #fff;
+    font-size: 0.85rem;
+    border-radius: 10px;
+}
+
+.calender-dates .days_each:hover {
+    font-weight: bold;
+    background: #b13cff78;
+    color: #fff;
+    font-size: 0.85rem;
+    border-radius: 10px;
+}
+
+.calender-dates div
+{
+    text-align: center;
+}
+.calender-date-selection
+{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: 0.5rem 0 1rem;
+}
+.calender-date-selection .calender-yearr
+{
+    width: 20%;
+}
+.calender-date-selection span {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #00000087;
+}
+.calender-date-selection select {
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+.calender-date-selection i {
+    font-size: 0.4rem;
+    color: #b13cff;
+
+}
+.calender-button
+{
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin: 0.75rem 0 0;
+}
+.btn--calender-close
+{
+    width: 100%;
+    padding: 0.65rem 0.5rem;
+    background: #b13cff;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.75rem;
+    text-align: center;
+
+}
+.btn--calender-clear
+{
+    width: 100%;
+    padding: 0.65rem 0.5rem;
+    border: 1px solid #b13cff;
+    border-radius: 8px;
+    color: #b13cff;
+    font-weight: bold;
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.no-clickable
+{
+    opacity: 0.75;
+    pointer-events: none;
+}

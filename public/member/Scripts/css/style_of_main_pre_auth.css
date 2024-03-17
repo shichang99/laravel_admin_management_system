@@ -1,0 +1,17 @@
+/*
+    * Used for - Page Elements (Register, Login, Reset Password ...) 
+    * Dynamically Uses Element - Easily to change overall custom stylings.
+*/
+
+:root
+{
+
+}
+
+/* Login Page */
+
+
+@media only screen and (max-width: 767px)
+{
+    
+}
